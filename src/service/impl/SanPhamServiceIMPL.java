@@ -5,7 +5,7 @@
 package service.impl;
 
 import donaimModel.SanPham;
-import Repository.SanPhamRepository;
+import reponsitory.SanPhamRepository;
 import service.SanPhamService;
 import ViewModel.SamPhamViewModel;
 import java.util.ArrayList;
