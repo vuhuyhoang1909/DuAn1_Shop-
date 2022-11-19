@@ -82,7 +82,7 @@ public class ImplHoaDonRep implements interHoaDonRep{
             ResultSet rs = pr.getResultSet();
             while (rs.next()) {                
                 String idsp = rs.getString("IdSp");
-                SanPham sp = new SanPham(idsp);
+                SanPham sp = new SanPham(idsp, "", "", "", "", "", "", "");
                 lstSp.add(sp);
             }
         } catch (SQLException ex) {
