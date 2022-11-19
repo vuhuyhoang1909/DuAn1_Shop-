@@ -4,17 +4,14 @@
  * and open the template in the editor.
  */
 
-package main;
-
-import Views.NewSignin;
-import Views.SpalshScreen;
+package Views;
 
 
 /**
  *
  * @author RoXen
  */
-public class Main {
+public class MinFrame {
  
     public static void main(String[] args) {
         SpalshScreen screen = new SpalshScreen();
