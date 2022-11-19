@@ -25,7 +25,7 @@ public class Main {
                 screen.loadingnumber.setText(Integer.toString(row)+"%");
                 screen.loadingprogress.setValue(row);
                 if (row == 100) {
-                    
+                    System.out.println("ok");
                     screen.setVisible(false);
                     sign.setVisible(true);
                 }
